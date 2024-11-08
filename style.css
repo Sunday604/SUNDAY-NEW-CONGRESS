@@ -38,16 +38,16 @@
 }
 .Announcer{
     color: white;
-    font-size: 1rem;
-    padding: 20px;
-}
-.Announcer h1{
-    padding-top: 150px;
+    padding: 10px;
+    padding-top: 70px;
+
+
 }
 
-.Announcer h1 span{
+.Announcer h3 span{
     color:gold;
 }
+
 .note {
     color: wheat;
     font-family: sans-serif;
@@ -62,7 +62,6 @@
 
 .text-2 h1 {
     color: white;
-    font-size: 2rem;
     font-weight: bold;
     text-align: center;
 
@@ -83,10 +82,11 @@
 
 }
 
-.paragarph-section {
+.paragarph-section p {
     text-align: center;
     color: blue;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding-top: 10px;
     background-color: chocolate
 }
 
@@ -103,7 +103,9 @@
     .logo {
         display: grid;
         position: fixed;
+
     }
+
 
 
 }
@@ -112,6 +114,10 @@
     .logo {
         display: grid;
         position: fixed;
+    }
+    .Announcer h1{
+        display: grid;
+        padding-bottom: 20px;
     }
 
 
